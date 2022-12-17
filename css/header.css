@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 85vh;
+    background-color: #333333;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header  .mx-5 {
+    margin-right: 3rem!important;
+    margin-left: 10rem!important;
+}
+
+header .nav .logo img {
+    margin-top: 100px;
+}
+
+header ul li a{
+    color: #fff !important;
+}
+ 
+
+header .banner {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(85px);
+    margin: 0 auto;
+}
+
+header .banner .content {
+    width: 47%;
+}
+
+header .banner .content h1 {
+    color: #ffffff;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+header .banner .content h3 {
+    color: #ffffff;
+    opacity: 0.6;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 47px;
+}
+
+header .banner .content button {
+    padding: 15px 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #49b970;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header .banner .content button a {
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    
+
+    header .banner {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        transform: translateY(-70px);
+    }
+    
+    header .nav ul {
+        display: none;
+    }
+
+   header .navbar{
+    width: 100% !important; 
+   }
+   header  .mx-5 {
+    margin: 15px  !important;
+}
+    header {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    header .banner .content {
+        width: fit-content;
+        margin: 0;
+    }
+    header .banner{
+        padding-top: 50px !important;
+    }
+    header .banner .content h1 {
+        font-size: 30px;
+       margin-top: 80px;
+        line-height: 1.5;
+    }
+
+    header .banner .content h3 {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    header .banner img {
+        margin: 0 auto;
+        width: 320px;
+        height: auto;
+        padding-top: 45px;
+        margin: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    header .menu {
+        display: none;
+    }
+
+    header .toggle {
+        display: block;
+    }
+}
